@@ -1,6 +1,6 @@
 <%@taglib prefix="form" uri="http://www.springframework.org/tags/form" %>
 <%@include file="/WEB-INF/views/template/header.jsp" %>
-
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <!-- Marketing messaging and featurettes
 ================================================== -->
 <!-- Wrap the rest of the page in another container to center all the content. -->
@@ -10,7 +10,7 @@
     <div class="container">
         <div class="page-header">
             <h1>Detalles del Producto</h1>
-            <p class="lead">Aqui puede detallar informacion del producto!</p>
+            <p class="lead">Aquí puede detallar información del producto!</p>
         </div>
 
         <div class="container">

@@ -7,6 +7,7 @@
 --%>
 <%@taglib prefix="form" uri="http://www.springframework.org/tags/form" %>
 <%@include file="/WEB-INF/views/template/header.jsp" %>
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
 
 <!-- Marketing messaging and featurettes
 ================================================== -->
@@ -17,14 +18,14 @@
     <div class="container">
         <div class="page-header">
             <h1>Editar Producto</h>
-            <p class="lead">Por favor, ingrese la informacion actualizar del producto:</p>
+            <p class="lead">Por favor, ingrese la información actualizar del producto:</p>
         </div>
 
         <form:form action="${pageContext.request.contextPath}/admin/productInventory/editProduct" method="post" commandName="product" enctype="multipart/form-data">
         <form:hidden path="productId" value="${product.productId}"/>
         <div class="form-group">
             <label for="nombre">Nombre</label>  <form:errors path="productName" cssStyle="color: red"/>
-            <form:input path="productName" id="nombre" class="form-Control" value="${product.productName}"/>
+            <form:input path="productName" id="nombre" class="form-Control" value="${product.productName}" placeholder="Ingrese nombre del producto" />
         </div>
 
         <form:errors path="productCategory" cssStyle="color: red"/>
@@ -37,18 +38,18 @@
         </div>
 
         <div class="form-group">
-            <label for="descripcion">Descripcion</label>
-            <form:textarea path="productDescription" id="descripcion" class="form-Control" value="${product.productDescription}"/>
+            <label for="descripcion">Descripción</label>
+            <form:textarea path="productDescription" id="descripcion" class="form-Control" value="${product.productDescription}" placeholder="Ingrese descripción del producto" />
         </div>
 
         <div class="form-group">
             <label for="precio">Precio</label> <form:errors path="productPrice" cssStyle="color: red"/>
-            <form:input path="productPrice" id="precio" class="form-Control" value="${product.productPrice}"/>
+            <form:input path="productPrice" id="precio" class="form-Control" value="${product.productPrice}" placeholder="Ingrese precio del producto" />
         </div>
 
         <form:errors path="productCondition" cssStyle="color: red"/>
         <div class="form-group">
-            <label for="condicion">Condicion</label>
+            <label for="condicion">Condición</label>
             <label class="checkbox-inline"><form:radiobutton path="productCondition" id="condicion" value="Nuevo"/>Nuevo</label>
             <label class="checkbox-inline"><form:radiobutton path="productCondition" id="condicion" value="Usado"/>Usado</label>
         </div>
@@ -62,12 +63,12 @@
 
         <div class="form-group">
             <label for="unitInStock">Unidades en Stock</label> <form:errors path="unitInStock" cssStyle="color: red"/>
-            <form:input path="unitInStock" id="unitInStock" class="form-Control" value="${product.unitInStock}"/>
+            <form:input path="unitInStock" id="unitInStock" class="form-Control" value="${product.unitInStock}" placeholder="Ingrese unidades en stock del producto" />
         </div>
 
         <div class="form-group">
             <label for="manufactura">Manufactura</label>  <form:errors path="productManufacturer" cssStyle="color: red"/>
-            <form:input path="productManufacturer" id="manufactura" class="form-Control" value="${product.productManufacturer}"/>
+            <form:input path="productManufacturer" id="manufactura" class="form-Control" value="${product.productManufacturer}" placeholder="Ingrese manufactura del producto" />
         </div>
 
         <div class="form-group">

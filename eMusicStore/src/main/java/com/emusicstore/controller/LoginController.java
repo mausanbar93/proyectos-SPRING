@@ -17,7 +17,7 @@ public class LoginController {
                         @RequestParam (value="logout", required = false ) String logout, Model model){
 
         if(error != null){
-            model.addAttribute("error", "Invalido usuario y contraseña!");
+            model.addAttribute("error", "Inválido usuario y contraseña!");
         }
         if(logout != null){
             model.addAttribute("msg", "Inicio de sesión correctamente.");

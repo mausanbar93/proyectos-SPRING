@@ -1,6 +1,7 @@
 <%@taglib prefix="form" uri="http://www.springframework.org/tags/form" %>
 <%@ taglib prefix="string" uri="http://www.springframework.org/tags" %>
 <%@include file="/WEB-INF/views/template/header.jsp" %>
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
 
 <!-- Marketing messaging and featurettes
 ================================================== -->
@@ -19,8 +20,8 @@
             <tr class="bg-success">
                 <th>Foto</th>
                 <th>Nombre Producto</th>
-                <th>Categoria</th>
-                <th>Condicion</th>
+                <th>Categoría</th>
+                <th>Condición</th>
                 <th>Precio</th>
                 <th></th>
             </tr>

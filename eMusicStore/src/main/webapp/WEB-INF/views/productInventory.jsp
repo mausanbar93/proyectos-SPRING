@@ -9,6 +9,7 @@
 <%@ taglib prefix="string" uri="http://www.springframework.org/tags" %>
 <%@ taglib prefix="spring" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@include file="/WEB-INF/views/template/header.jsp" %>
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
 
 <!-- Marketing messaging and featurettes
 ================================================== -->
@@ -18,8 +19,8 @@
 
     <div class="container">
         <div class="page-header">
-            <h1>Pagina inventario de productos</h1>
-            <p class="lead">Esta es la pagina de inventario de productos!</p>
+            <h1>Página inventario de productos</h1>
+            <p class="lead">Esta es la página de inventario de productos!</p>
         </div>
 
         <table class="table table-striped table-hover">
@@ -27,8 +28,8 @@
             <tr class="bg-success">
                 <th>Foto</th>
                 <th>Nombre Producto</th>
-                <th>Categoria</th>
-                <th>Condicion</th>
+                <th>Categoría</th>
+                <th>Condición</th>
                 <th>Precio</th>
                 <th></th>
             </tr>

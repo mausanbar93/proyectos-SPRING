@@ -6,6 +6,7 @@
   To change this template use File | Settings | File Templates.
 --%>
 <%@include file="/WEB-INF/views/template/header.jsp" %>
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
 
 <!-- Marketing messaging and featurettes
 ================================================== -->
@@ -15,13 +16,13 @@
 
     <div class="container">
         <div class="page-header">
-            <h1>Pagina del Administrador</h1>
-            <p class="lead">Esta es la pagina de administracion!</p>
+            <h1>Página del Administrador</h1>
+            <p class="lead">Esta es la página de administración!</p>
         </div>
 
         <c:if test="${pageContext.request.userPrincipal.name != null}">
             <h2>
-                Bienvenido: ${pageContext.request.userPrincipal.name} | <a href="<c:url value="/j_spring_security_logout"/> ">Cerrar Sesion</a>
+                Bienvenido: ${pageContext.request.userPrincipal.name} | <a href="<c:url value="/j_spring_security_logout"/> ">Cerrar sesión</a>
             </h2>
         </c:if>
 
@@ -29,6 +30,6 @@
             <a href="<c:url value="/admin/productInventory"/> ">Inventario de Productos</a>
         </h3>
 
-        <p>Aqui puede visualizar, verificar y modificar los productos en el inventario!</p>
+        <p>Aquí puede visualizar, verificar y modificar los productos en el inventario!</p>
 
         <%@include file="/WEB-INF/views/template/footer.jsp" %>

@@ -1,7 +1,20 @@
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <!-- FOOTER -->
 <footer>
-    <p class="pull-right"><a href="#">Back to top</a></p>
-    <p>&copy; 2016 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+    <div class="row">
+        <p class="pull-right"><a href="javascript:history.back(1)">Volver Atrás</a></p>
+    </div>
+    <div class="row">
+        <div>
+            &copy; 2017 Mauricio Sánchez Barragán, <i>Junior Developer Engineer</i>
+        </div>
+        <div>
+            Derecho de autor. Todos los derechos reservados
+        </div>
+        <div>
+            &middot; <a href="http://privacypolicies.com/privacy/create">Política de Privacidad</a> &middot; <a href="https://terminosycondiciones.es/">Términos y Condiciones</a>
+        </div>
+    </div>
 </footer>
 </div>
 
