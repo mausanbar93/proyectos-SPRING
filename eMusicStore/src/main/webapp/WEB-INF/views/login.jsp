@@ -43,8 +43,7 @@
                 <input type="hidden" name="${_csrf.parameterName}" value="${_csrf.token}">
             </form>
         </div>
-    </div>
-</div>
+
 
 <%@include file="/WEB-INF/views/template/footer.jsp" %>
 

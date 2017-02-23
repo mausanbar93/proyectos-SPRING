@@ -1,5 +1,6 @@
 <%@taglib prefix="form" uri="http://www.springframework.org/tags/form" %>
 <%@include file="/WEB-INF/views/template/header.jsp" %>
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
 
 <!-- Carousel
 ================================================== -->
@@ -28,8 +29,8 @@
                  alt="Second slide">
             <div class="container">
                 <div class="carousel-caption">
-                    <h1>Vive la musica!</h1>
-                    <p>Si buscas buena musica y tienes buen criterio musical, por nuestra tienda tienes que pasar...</p>
+                    <h1>Vive la música!</h1>
+                    <p>Si buscas buena música y tienes buen criterio musical, por nuestra tienda tienes que pasar...</p>
                 </div>
             </div>
         </div>
@@ -41,17 +42,17 @@
                 <div class="carousel-caption">
                     <div class="row">
                         <div class="col-md-4">
-                            <h3>La musica es el arte mas directo, entra por el oido y va al corazon. </h3>Magdalena Martinez
+                            <h3>La música es el arte más directo, entra por el oído y va al corazón. </h3>Magdalena Martínez
                         </div>
                         <div class="col-md-4">
-                            <h3>En la musica todos los sentimientos vuelven a su estado puro y el mundo no es sino musica hecha realidad.</h3> Arthur Schopenhauer
+                            <h3>En la música todos los sentimientos vuelven a su estado puro y el mundo no es sino música hecha realidad.</h3> Arthur Schopenhauer
                         </div>
                         <div class="col-md-4">
-                            <h3>La musica empieza donde se acaba el lenguaje.</h3> E.T.A. Hoffmann
+                            <h3>La música empieza donde se acaba el lenguaje.</h3> E.T.A. Hoffmann
                         </div>
                     </div>
                     <p></p>
-                    <p><a class="btn btn-lg btn-primary" href="#" role="button">Galeria Imagenes</a></p>
+                    <p><a class="btn btn-lg btn-primary" href="#" role="button">Galería Imágenes</a></p>
                 </div>
             </div>
         </div>
@@ -65,7 +66,6 @@
         <span class="sr-only">Next</span>
     </a>
 </div><!-- /.carousel -->
-
 
 <!-- Marketing messaging and featurettes
 ================================================== -->

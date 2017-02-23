@@ -1,12 +1,13 @@
 .container-wrapper{
 	height: 80%;
 	margin: auto;
-	margin-top: 80px;
+	margin-top: 50px;
 	margin-bottom: 300px;
 }
 
 .home-image{
 	display: block;
+	top: -40%;
 	width: 100% !important;
 	height: auto !important;
 }
@@ -38,16 +39,13 @@
 	width: 40%;
 	margin: auto;
 	margin-top: 100px;
-
 }
 
 .foto {
 	position: relative; /*Para poder ubicar la info dentro de la caja*/
 	margin: 10px auto;
 }
-.foto img {
-	#border:2px solid black;
-}
+
 .info {
 	position: absolute; /*Info sobre la imagen*/
 	top: 5%;
@@ -62,6 +60,7 @@
 	-webkit-transition:all ease .8s ;
 	transition:all ease .8s;
 }
+
 .foto:hover .info {
 	filter: alpha(opacity=80);
 	opacity: .8; /*Al hacer hover sobre la caja hacemos visible los datos*/

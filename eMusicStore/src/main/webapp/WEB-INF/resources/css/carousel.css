@@ -50,20 +50,33 @@ body {
 
 /* Carousel base class */
 .carousel {
-    height: 600px;
-    margin-bottom: 60px;
+    height: 500px;
+    margin-bottom: 40px;
 }
 
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {
     z-index: 10;
-    top: 230px;
+    top: 150px;
     bottom: auto;
+    transition: all 0.3s ease;
+}
+
+.carousel-caption:hover
+{
+    background: #333D42;
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+    opacity: .8;
+    border-radius: 10px 10px 10px 10px;
+    -moz-border-radius: 10px 10px 10px 10px;
+    -webkit-border-radius: 10px 10px 10px 10px;
 }
 
 /* Declare heights because of positioning of img element */
 .carousel .item {
-    height: 600px;
+    height: 500px;
     background-color: #777;
 }
 
@@ -72,7 +85,7 @@ body {
     top: 0;
     left: 0;
     min-width: 100%;
-    height: 600px;
+    height: 500px;
 }
 
 /* MARKETING CONTENT

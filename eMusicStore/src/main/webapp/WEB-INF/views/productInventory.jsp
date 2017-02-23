@@ -26,7 +26,7 @@
         <table class="table table-striped table-hover">
             <thead>
             <tr class="bg-success">
-                <th>Foto</th>
+                <th>Imagen</th>
                 <th>Nombre Producto</th>
                 <th>Categoría</th>
                 <th>Condición</th>

@@ -9,17 +9,13 @@
             &copy; 2017 Mauricio Sánchez Barragán, <i>Junior Developer Engineer</i>
         </div>
         <div>
-            Derecho de autor. Todos los derechos reservados
-        </div>
-        <div>
-            &middot; <a href="http://privacypolicies.com/privacy/create">Política de Privacidad</a> &middot; <a href="https://terminosycondiciones.es/">Términos y Condiciones</a>
+            Derecho de autor. Todos los derechos reservados &middot; <a href="http://privacypolicies.com/privacy/create">Política de Privacidad</a> &middot; <a href="https://terminosycondiciones.es/">Términos y Condiciones</a>
         </div>
     </div>
 </footer>
 </div>
 
 </div><!-- /.container -->
-
 
 <!-- Bootstrap core JavaScript
 ================================================== -->
