@@ -47,7 +47,8 @@ public class Cart {
     public void updateGranTotal(){
         granTotal = 0;
         for(CartItem item : cartItems.values()){
-            granTotal = granTotal + item.getTotalPrice();
+            //granTotal = granTotal + item.getTotalPrice();
+            granTotal = granTotal + (item.getQuantity()*item.getTotalPrice());
         }
     }
 

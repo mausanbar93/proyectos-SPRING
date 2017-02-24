@@ -32,13 +32,13 @@ public class CartController {
 
     @RequestMapping(value = "/{cartId}", method = RequestMethod.PUT)
     @ResponseStatus(value = HttpStatus.NO_CONTENT)
-    public void update(@PathVariable(value = "cardId") String cartId, @RequestBody Cart cart){
+    public void update(@PathVariable(value = "cartId") String cartId, @RequestBody Cart cart){
         cartDAO.update(cartId, cart);
     }
 
     @RequestMapping(value = "/{cartId}", method = RequestMethod.DELETE)
     @ResponseStatus(value = HttpStatus.NO_CONTENT)
-    public void delete(@PathVariable(value = "cardId") String cartId){
+    public void delete(@PathVariable(value = "cartId") String cartId){
         cartDAO.delete(cartId);
     }
 
